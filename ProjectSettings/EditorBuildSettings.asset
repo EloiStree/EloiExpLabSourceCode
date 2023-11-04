@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/EloiLab/LandingScene/HandingScene.unity
+    guid: 3e7b11abae43c5d4cba77612c691bc36
+  m_configObjects:
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: bbc49917dac1f3b40aad40a27753301f,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: aab76828b229bf94384e404f67cc2a8e,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f55a6129b5f4cd242ae3b20241307929,
+      type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 0bb4c50ec7fbf4342b1cf15fcd36884c,
+      type: 2}
