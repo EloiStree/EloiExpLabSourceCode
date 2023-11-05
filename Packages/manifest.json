@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.darktable.xrgizmos": "https://github.com/darktable/XRGizmos.git",
+    "com.meta.xr.sdk.audio": "57.0.0-preview",
+    "com.meta.xr.sdk.interaction.ovr": "57.0.0-preview",
+    "com.meta.xr.sdk.utilities": "57.0.0-preview",
+    "com.tayx.graphy": "https://github.com/Tayx94/graphy.git",
+    "com.unity.ai.navigation": "1.1.5",
     "com.unity.collab-proxy": "2.0.7",
     "com.unity.ide.rider": "3.0.24",
     "com.unity.ide.visualstudio": "2.0.18",
@@ -14,9 +20,7 @@
     "com.unity.xr.hands": "1.3.0",
     "com.unity.xr.interaction.toolkit": "2.5.2",
     "com.unity.xr.management": "4.4.0",
-    "com.unity.xr.mock-hmd": "1.3.1-preview.1",
     "com.unity.xr.oculus": "4.0.0",
-    "com.unity.xr.openxr": "1.8.2",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
