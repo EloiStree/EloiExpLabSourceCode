@@ -16,8 +16,8 @@ MonoBehaviour:
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
   m_Loaders:
-  - {fileID: 11400000, guid: 91ea27a405d563b4da7aa3e88712c65e, type: 2}
   - {fileID: 11400000, guid: b853368016fa48648aaca91cf9bcd15b, type: 2}
+  - {fileID: 11400000, guid: 1b266ba98269e45468da3daee847d744, type: 2}
 --- !u!114 &-4998800582664019647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,7 +92,8 @@ MonoBehaviour:
   m_RequiresSettingsUpdate: 0
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
-  m_Loaders: []
+  m_Loaders:
+  - {fileID: 11400000, guid: 1b266ba98269e45468da3daee847d744, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,12 +106,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2dc886499c26824283350fa532d087d, type: 3}
   m_Name: XRGeneralSettingsPerBuildTarget
   m_EditorClassIdentifier: 
-  Keys: 07000000010000000e0000000d000000
+  Keys: 07000000010000000e0000000d00000000000000
   Values:
   - {fileID: 3806008257558396018}
   - {fileID: -1584315738824079286}
   - {fileID: -1977082174465418693}
   - {fileID: -4998800582664019647}
+  - {fileID: 6588735942788749158}
 --- !u!114 &3806008257558396018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,6 +126,20 @@ MonoBehaviour:
   m_Name: Android Settings
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: -9058208551627124184}
+  m_InitManagerOnStart: 1
+--- !u!114 &6588735942788749158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
+  m_Name: Unknown Settings
+  m_EditorClassIdentifier: 
+  m_LoaderManagerInstance: {fileID: 8419031330243579398}
   m_InitManagerOnStart: 1
 --- !u!114 &7959946301043273503
 MonoBehaviour:
@@ -141,5 +157,22 @@ MonoBehaviour:
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
   m_Loaders:
-  - {fileID: 11400000, guid: 91ea27a405d563b4da7aa3e88712c65e, type: 2}
   - {fileID: 11400000, guid: b853368016fa48648aaca91cf9bcd15b, type: 2}
+  - {fileID: 11400000, guid: 1b266ba98269e45468da3daee847d744, type: 2}
+--- !u!114 &8419031330243579398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
+  m_Name: Unknown Providers
+  m_EditorClassIdentifier: 
+  m_RequiresSettingsUpdate: 0
+  m_AutomaticLoading: 0
+  m_AutomaticRunning: 0
+  m_Loaders:
+  - {fileID: 11400000, guid: 1b266ba98269e45468da3daee847d744, type: 2}

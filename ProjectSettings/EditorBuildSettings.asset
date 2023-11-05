@@ -9,6 +9,8 @@ EditorBuildSettings:
     path: Assets/EloiLab/LandingScene/HandingScene.unity
     guid: 3e7b11abae43c5d4cba77612c691bc36
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4d8d1a0ff8f05584dab086ed036ea4a7,
+      type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: bbc49917dac1f3b40aad40a27753301f,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: aab76828b229bf94384e404f67cc2a8e,
