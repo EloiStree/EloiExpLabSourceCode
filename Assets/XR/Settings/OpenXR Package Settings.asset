@@ -51,6 +51,10 @@ MonoBehaviour:
     manifestName: cambria
     enabled: 1
   forceRemoveInternetPermission: 1
+  symmetricProjection: 0
+  systemSplashScreen: {fileID: 0}
+  lateLatchingMode: 0
+  lateLatchingDebug: 0
 --- !u!114 &-8560668930106308262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70,6 +74,7 @@ MonoBehaviour:
   - {fileID: -2694534016993217880}
   - {fileID: 7995642059848420286}
   - {fileID: -9201989264140401526}
+  - {fileID: -4773336365174765182}
   - {fileID: -3602120000715538632}
   - {fileID: -1654021439478537973}
   - {fileID: 7926409947876792882}
@@ -84,6 +89,7 @@ MonoBehaviour:
   - {fileID: -5534682419922189741}
   m_renderMode: 0
   m_depthSubmissionMode: 0
+  m_symmetricProjection: 0
 --- !u!114 &-8232256006445690677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f928d0d73a35f294fbe357ca17aa3547, type: 3}
   m_Name: MicrosoftHandInteraction Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Microsoft Hand Interaction Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handtracking
@@ -144,6 +150,28 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &-7333174942871775712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c465bd23c9c4fb442ae89117552a5f3f, type: 3}
+  m_Name: HandTrackingFeature Android
+  m_EditorClassIdentifier: 
+  m_enabled: 1
+  nameUi: Ultraleap Hand Tracking
+  version: 1.0.0
+  featureIdInternal: com.ultraleap.tracking.openxr.feature.handtracking
+  openxrExtensionStrings: XR_EXT_hand_tracking XR_ULTRALEAP_hand_tracking_forearm
+  company: Ultraleap
+  priority: 0
+  required: 0
+  metaPermissions: 1
+  metaHighFrequency: 1
 --- !u!114 &-7133085644391562060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,6 +292,28 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &-4773336365174765182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c465bd23c9c4fb442ae89117552a5f3f, type: 3}
+  m_Name: HandTrackingFeature Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Ultraleap Hand Tracking
+  version: 1.0.0
+  featureIdInternal: com.ultraleap.tracking.openxr.feature.handtracking
+  openxrExtensionStrings: XR_EXT_hand_tracking XR_ULTRALEAP_hand_tracking_forearm
+  company: Ultraleap
+  priority: 0
+  required: 0
+  metaPermissions: 1
+  metaHighFrequency: 1
 --- !u!114 &-4576313801170121443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,6 +362,7 @@ MonoBehaviour:
   features: []
   m_renderMode: 1
   m_depthSubmissionMode: 0
+  m_symmetricProjection: 0
 --- !u!114 &-3775016732298741029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -372,6 +423,31 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &-2707705014645542695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e068f7c0f1a950f41a559a42c84d6562, type: 3}
+  m_Name: LynxR1Feature Android
+  m_EditorClassIdentifier: 
+  m_enabled: 1
+  nameUi: Lynx-R1
+  version: 1.0.0
+  featureIdInternal: com.lynx.openxr.feature
+  openxrExtensionStrings: 
+  company: Lynx
+  priority: 0
+  required: 0
+  startInAR: 1
+  DisableBackgroundInAR: 1
+  onlyVRLayer: 10
+  onlyARLayer: 11
+  VisibleInFullARTag: FullARObject
 --- !u!114 &-2694534016993217880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -657,7 +733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e314dfef9af0904e80129bcc0a79361, type: 3}
   m_Name: HandTracking Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Tracking Subsystem
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handtracking
@@ -716,6 +792,7 @@ MonoBehaviour:
   - {fileID: -1496599521145555522}
   m_renderMode: 1
   m_depthSubmissionMode: 0
+  m_symmetricProjection: 0
 --- !u!114 &683151754661651616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1034,7 +1111,9 @@ MonoBehaviour:
   - {fileID: -7133085644391562060}
   - {fileID: -7669793949664481512}
   - {fileID: 188967637065961720}
+  - {fileID: -7333174942871775712}
   - {fileID: -1737378222021175032}
+  - {fileID: -2707705014645542695}
   - {fileID: -4834224726545951404}
   - {fileID: -8918263421376609344}
   - {fileID: -1495863098152589573}
@@ -1046,6 +1125,7 @@ MonoBehaviour:
   - {fileID: 9147148727432391827}
   m_renderMode: 1
   m_depthSubmissionMode: 0
+  m_symmetricProjection: 0
 --- !u!114 &7279889878275085123
 MonoBehaviour:
   m_ObjectHideFlags: 0
