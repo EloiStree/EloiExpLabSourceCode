@@ -46,6 +46,12 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
+    "be.eloistree.quickgitutility":"https://github.com/EloiStree/2019_07_21_QuickGitUtility.git",
+"be.eloistree.license":"https://github.com/EloiStree/GeneralLicense.git",
+"be.eloistree.unitypackagefacilitator":"https://github.com/EloiStree/2019_07_21_UnityPackageFacilitator.git",
+"be.eloistree.generaltoolbox":"https://github.com/EloiStree/2021_10_03_EloiGeneralToolbox.git",
+"be.eloistree.zhulistaticsingleton":"https://github.com/EloiStree/2022_11_22_ZhuLiStaticSingleton.git",
+
     "com.unity.modules.xr": "1.0.0"
   }
 }
