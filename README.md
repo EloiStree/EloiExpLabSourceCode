@@ -10,4 +10,10 @@ This is the main page.
       - Quest3: Project with the code of Oculus Integration for android 
       - OculusLink: Project with configuration for Window Oculus Store
     - LynxR1: Project with a Lynx R1 configuration
-    - Pico: Project with a Pico configuration 
+    - Pico: Project with a Pico configuration
+   
+# convention Note
+
+- Reservedd Layout
+  - Layer 24 Left Eye
+  - Layer 25 Right Eye 
