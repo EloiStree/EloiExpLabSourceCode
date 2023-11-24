@@ -1,0 +1,2 @@
+I am wondering if I should use C# Reflexion to access bool float int... (primitive value) and turne them to boolean.
+Allowing to fetch data from any code when you need to observe an API.

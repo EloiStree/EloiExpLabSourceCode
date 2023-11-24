@@ -1,44 +1,5 @@
 {
   "dependencies": {
-    "be.eloistree.generaltoolbox": {
-      "version": "https://github.com/EloiStree/2021_10_03_EloiGeneralToolbox.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "7a0eb18d6a04c2b310d2b05ebcf3d00bc4e04614"
-    },
-    "be.eloistree.license": {
-      "version": "https://github.com/EloiStree/GeneralLicense.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "420506754b7731a1d3daf28d3a78aa1c2f11a718"
-    },
-    "be.eloistree.quickgitutility": {
-      "version": "https://github.com/EloiStree/2019_07_21_QuickGitUtility.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "be.eloistree.license": "0.0.1"
-      },
-      "hash": "3aae3c67c2850bb0f51ad5e5ff113091257ece90"
-    },
-    "be.eloistree.unitypackagefacilitator": {
-      "version": "https://github.com/EloiStree/2019_07_21_UnityPackageFacilitator.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "be.eloistree.license": "0.0.1"
-      },
-      "hash": "35bc302c6820a66619d0bea6c797ee1693faa518"
-    },
-    "be.eloistree.zhulistaticsingleton": {
-      "version": "https://github.com/EloiStree/2022_11_22_ZhuLiStaticSingleton.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "89564667f5e0a9611cc438548de002611a652460"
-    },
     "com.unity.burst": {
       "version": "1.8.8",
       "depth": 1,
@@ -99,6 +60,13 @@
     "com.unity.mathematics": {
       "version": "1.2.6",
       "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -286,6 +254,15 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.xr.oculus": {
+      "version": "4.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.management": "4.2.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.xr.openxr": {
       "version": "1.8.2",
       "depth": 0,
@@ -328,14 +305,6 @@
       "source": "builtin",
       "dependencies": {}
     },
-    "com.unity.modules.cloth": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.physics": "1.0.0"
-      }
-    },
     "com.unity.modules.director": {
       "version": "1.0.0",
       "depth": 0,
@@ -377,7 +346,7 @@
     },
     "com.unity.modules.physics2d": {
       "version": "1.0.0",
-      "depth": 0,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {}
     },
@@ -399,18 +368,9 @@
     },
     "com.unity.modules.terrain": {
       "version": "1.0.0",
-      "depth": 0,
+      "depth": 2,
       "source": "builtin",
       "dependencies": {}
-    },
-    "com.unity.modules.terrainphysics": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.physics": "1.0.0",
-        "com.unity.modules.terrain": "1.0.0"
-      }
     },
     "com.unity.modules.tilemap": {
       "version": "1.0.0",
@@ -497,14 +457,6 @@
         "com.unity.modules.imageconversion": "1.0.0"
       }
     },
-    "com.unity.modules.vehicles": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.physics": "1.0.0"
-      }
-    },
     "com.unity.modules.video": {
       "version": "1.0.0",
       "depth": 0,
@@ -524,12 +476,6 @@
         "com.unity.modules.physics": "1.0.0",
         "com.unity.modules.xr": "1.0.0"
       }
-    },
-    "com.unity.modules.wind": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
     },
     "com.unity.modules.xr": {
       "version": "1.0.0",

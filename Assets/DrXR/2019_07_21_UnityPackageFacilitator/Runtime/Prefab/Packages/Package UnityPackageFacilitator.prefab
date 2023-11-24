@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8419546173776225012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1885123340889922390}
+  - component: {fileID: 7386625396460074831}
+  - component: {fileID: 3239550133228162893}
+  m_Layer: 0
+  m_Name: Package UnityPackageFacilitator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1885123340889922390
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419546173776225012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7386625396460074831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419546173776225012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee63733ae950f5d4f9ce99832dd9b9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_gitLink: https://gitlab.com/eloistree/2019_07_21_UnityPackageFacilitator.git
+  m_directoriesStructure:
+  - Runtime
+  - Runtime/Scene
+  - Runtime/Script
+  - Runtime/Script/Shared/Gist
+  - Runtime/Assets/
+  - Runtime/Assets/Shared/
+  - Editor
+  - Editor/Script
+  m_packageJson:
+    m_projectId:
+      m_year: 2019
+      m_month: 7
+      m_day: 21
+      m_projectName: UnityPackageFacilitator
+    country: be
+    company: eloiexperiments
+    m_description: Tools to create the structure of new unity package under 2 minutes.
+    m_keywords:
+    - Script
+    - Tool
+    - Productivity
+    - Git
+    - Unity Package
+    m_category: 0
+    m_packageVersion: 0.0.1
+    m_unityVersion: 2018.1
+    m_dependencies:
+    - be.eloiexperiments.quickgitutility
+    m_assemblyRuntime:
+      m_packageName: unitypackagefacilitator
+      m_packageNamespaceId: be.eloiexperiments.unitypackagefacilitator
+      m_reference:
+      - be.eloiexperiments.quickgitutility
+      - be.eloiexperiments.quickgitutilityeditor
+      m_isEditorAssembly: 0
+    m_assemblyEditor:
+      m_packageName: unitypackagefacilitatoreditor
+      m_packageNamespaceId: be.eloiexperiments.unitypackagefacilitatoreditor
+      m_reference:
+      - be.eloiexperiments.unitypackagefacilitator
+      - be.eloiexperiments.quickgitutility
+      - be.eloiexperiments.quickgitutilityeditor
+      m_isEditorAssembly: 1
+    m_classicUnityPackageRequired:
+      m_packageLinks:
+      - m_name: Oculus Light
+        m_pathOrLink: https://gitlab.com/eloistree/2019_07_23_OculusQuestLight/raw/master/OculusIntegrationLight.unitypackage
+      - m_name: Oculus Official
+        m_pathOrLink: https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022
+  m_projectPath: C:/Users/stree/OneDrive/Desktop/ProjectTest/2019_07_26_firstoculusprojectwithunitypackage/Assets
+  m_patreonLink: http://patreon.com/eloistree
+  m_contact: http://eloistree.page.link/discord
+  m_pullPush: {fileID: 3239550133228162893}
+  m_gitUserName: eloistree
+--- !u!114 &3239550133228162893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419546173776225012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6574b5f3f3459740a56e89e0965dbd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_gitLink: https://gitlab.com/eloistree/2019_07_21_UnityPackageFacilitator.git
+  m_affectPackageManager: 1
+  m_projectName: 2019_07_21_UnityPackageFacilitator
+  m_namespaceId: be.eloiexperiments.unitypackagefacilitator
+  m_isValideLink: 1
+  m_useDebug: 0

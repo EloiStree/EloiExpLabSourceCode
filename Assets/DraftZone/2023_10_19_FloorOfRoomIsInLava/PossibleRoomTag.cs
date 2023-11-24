@@ -1,0 +1,7 @@
+
+    public enum PossibleRoomTag {
+    Unknow, FLOOR, WINDOW_FRAME, COUCH, TABLE, DESK, DOOR_FRAME, PLANT,
+    WALL_FACE, WALL_ART, LAMP, SCREEN, STORAGE, CEILING, GLOBAL_MESH }
+
+   
+

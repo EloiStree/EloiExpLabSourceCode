@@ -1,0 +1,134 @@
+{
+    "name": "FlySkyToUnityInput",
+    "maps": [
+        {
+            "name": "DroneClassic",
+            "id": "df205ff1-3b3c-4642-aa23-fa3978290501",
+            "actions": [
+                {
+                    "name": "ArmedSwitchOn",
+                    "type": "Button",
+                    "id": "51c8f77d-bed4-49ad-96ba-801680597cc6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "KillSwitchOn",
+                    "type": "Button",
+                    "id": "a56dc69d-bdd3-42f9-919f-0e11b9de1d2d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RollLeftRight",
+                    "type": "Value",
+                    "id": "3ef940b8-7fbf-4ce8-bf95-d3982b9d8b7a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PitchBackFront",
+                    "type": "Value",
+                    "id": "9abde82c-8b26-4b1f-8161-ae9e7f833229",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ThrottleDownUp",
+                    "type": "Value",
+                    "id": "727533eb-ff95-46a6-9122-00c1e6fe8d09",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "YawLeftRightRotation",
+                    "type": "Value",
+                    "id": "966194ef-4ce5-4625-951c-72e51caa1e0e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d5ac07e9-e160-4b0f-a68d-f2f0dba1f2d9",
+                    "path": "<HID::Flysky Flysky FS-i6XCN>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ArmedSwitchOn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "71da735b-ddac-4ed8-a0c0-ce86d3af1eef",
+                    "path": "<HID::Flysky Flysky FS-i6XCN>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KillSwitchOn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8738a130-a517-4b54-9706-0ea9a6a1746a",
+                    "path": "<HID::Flysky Flysky FS-i6XCN>/stick/x",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "RollLeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "88dbf398-51f0-4c08-b528-d0469fcbf345",
+                    "path": "<HID::Flysky Flysky FS-i6XCN>/stick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PitchBackFront",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "63e9da95-a4d6-4654-8c62-e04c072ccb7c",
+                    "path": "<HID::Flysky Flysky FS-i6XCN>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThrottleDownUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6f7dfda3-e394-4df0-b3ad-73d2e2e2edaa",
+                    "path": "<HID::Flysky Flysky FS-i6XCN>/rx",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "YawLeftRightRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

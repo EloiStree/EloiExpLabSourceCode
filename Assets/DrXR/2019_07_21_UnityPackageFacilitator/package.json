@@ -1,0 +1,28 @@
+
+{                                                                                
+     "name": "be.eloistree.unitypackagefacilitator",
+    "displayName": "Unity Package Facilitator",
+    "version": "0.0.1",
+    "unity": "2018.1",
+    "description": "Tools to create the structure of new unity package under 2 minutes.",
+    "keywords": [
+        "Script",
+        "Tool",
+        "Productivity",
+        "Git",
+        "Unity Package"
+    ],                     
+  "dependencies":{ "be.eloistree.license":"0.0.1"},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"Eloi Stree",
+"mail":"streeeloi@gmail.com",
+"url":"https://eloistree.page.link/toolbox"},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2019_07_21_UnityPackageFacilitator.git",
+"footprint":"",
+"revision":"32e4686dc92a127a4eb110d076a46e6382aab947"},     
+  "category": "Script"                   
+} 

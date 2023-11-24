@@ -26,6 +26,11 @@
 # Visual Studio cache directory
 .vs/
 
+
+*.igit/
+*.giti/
+.igit/
+.giti/
 # Gradle cache directory
 .gradle/
 

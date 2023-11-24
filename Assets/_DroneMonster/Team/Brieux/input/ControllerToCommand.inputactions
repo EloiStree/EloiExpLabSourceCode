@@ -1,0 +1,45 @@
+{
+    "name": "ControllerToCommand",
+    "maps": [
+        {
+            "name": "XCommand",
+            "id": "5aa2c6a7-d783-411e-85bb-02c3a851f89b",
+            "actions": [
+                {
+                    "name": "DroneUp1",
+                    "type": "Button",
+                    "id": "90749e94-90bb-441b-9c6c-1604a1bc6e67",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "349f7c1a-ad61-487e-9bd8-08fc7acd09c0",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DroneUp1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6ed2b67b-6faf-43b6-8425-f6f953f1790e",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DroneUp1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

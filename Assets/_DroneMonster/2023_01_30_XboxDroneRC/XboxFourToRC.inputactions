@@ -1,0 +1,94 @@
+{
+    "name": "XboxFourToRC",
+    "maps": [
+        {
+            "name": "DroneRC",
+            "id": "0fa50478-2e00-4d09-9dbe-8c64516bcd15",
+            "actions": [
+                {
+                    "name": "LeftRight",
+                    "type": "Value",
+                    "id": "5ba961cc-9f66-4a2d-b891-d35aa51150a9",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "DownUp",
+                    "type": "Value",
+                    "id": "b4245d6f-eb81-42f3-860f-d71f15b9b37e",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "BackFront",
+                    "type": "Value",
+                    "id": "dc7bdf6c-9df9-4413-bc7d-3100d87eb4b2",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftRightRotation",
+                    "type": "Value",
+                    "id": "f325d4ff-ff05-4b0b-aea8-7e32a6773db6",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cc1ae61e-c3cc-42ac-995c-5efccac7c375",
+                    "path": "<XInputController>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "321f3d98-3dd0-4190-ac67-030f8a990f7c",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DownUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "51ff5576-fbd5-4080-9d79-10d1f443dc8d",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BackFront",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fcef0322-3925-46a6-9249-f9512be57af5",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRightRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

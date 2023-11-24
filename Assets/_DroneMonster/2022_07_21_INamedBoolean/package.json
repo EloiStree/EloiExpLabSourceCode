@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.omi.inamedboolean",                              
+  "displayName": "INamedBoolean",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "This package contains interface and utilities around boolean that is link to stirng named to access it",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/OpenMacroInput/2022_07_21_INamedBoolean.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6810210637892335608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6810210637892335591}
+  - component: {fileID: 6810210637892335590}
+  m_Layer: 0
+  m_Name: Dev RTFM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6810210637892335591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6810210637892335608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 50, y: 50, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6810210637892335590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6810210637892335608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7aa59b09f94624eb174574056f3ae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_note: 
+  m_author: 
+  m_whereToFindInfo:
+    m_namedUrls:
+    - m_linkName: Wikipedia
+      m_urls: https://fr.wikipedia.org/wiki/RTFM_(expression)#:~:text=RTFM%20est%2C%20en%20anglais%2C%20le,dans%20son%20mode%20d%27emploi.
+    - m_linkName: Google Search
+      m_urls: https://www.google.com/search?q=rtfm&client=opera-gx&hs=WMD&sxsrf=ALiCzsaQCG2e3qA2UNyC0NKsbV8hrb3D4Q:1665710217381&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjr3riOxt76AhUKOuwKHQfRCMMQ_AUoAXoECAEQAw&biw=1879&bih=970&dpr=1
